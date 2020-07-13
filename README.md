@@ -6,3 +6,8 @@
 
 URL：https://www.bilibili.com/video/BV1Mz411v7J7
 希望能做出来吧。
+
+## Thanks
+
+Types-for-Adobe from pravdomil
+URL:https://github.com/pravdomil/Types-for-Adobe
