@@ -1,6 +1,6 @@
 # AeSubtitleScripts
 
-一些 Ae 字幕脚本,序号对应脚本在 finishedJSX 文件夹中。 -[x]Project1 -[ ]UI 界面
+一些 Ae 字幕脚本,序号对应脚本在 finishedJSX 文件夹中。
 
 ## 1.【歌ってみた】とても素敵な六月でした / Covered by 花鋏キョウ
 
