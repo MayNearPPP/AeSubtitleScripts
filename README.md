@@ -5,8 +5,6 @@
 
 简单的 Ae 效果字幕脚本，主要针对 Vtuber 搬运组的字幕效果制作工作。
 
-脚本灵感来源基本取自各 Vtuber 视频，其中大部分为[花鋏キョウ](https://zh.moegirl.org/zh-hant/%E8%8A%B1%E9%93%97%E9%95%9C)的视频。（\单推/\单推/\单推/）[`Twitter`](https://twitter.com/Kyo_Hanabasami)[`Youtube`](https://www.youtube.com/channel/UC4OeUf_KfYRrwksschtRYow)[`Bilibili`](https://space.bilibili.com/482515504)
-
 ## 目录
 
 - [背景](#背景)
@@ -18,7 +16,17 @@
 
 ## 背景
 
+生活所迫，被迫写代码 XD。  
+脚本灵感来源基本取自各 Vtuber 视频，其中大部分为[花鋏キョウ](https://zh.moegirl.org/zh-hant/%E8%8A%B1%E9%93%97%E9%95%9C)的视频。（\单推/\单推/\单推/）  
+[`Twitter`](https://twitter.com/Kyo_Hanabasami)[`Youtube`](https://www.youtube.com/channel/UC4OeUf_KfYRrwksschtRYow)[`Bilibili`](https://space.bilibili.com/482515504)
+
 ## 安装
+
+已经完成的插件均在[finishedJSX](./finishedJSX)中。只需下载对应\*.jsx 文件，并将其放入下述文件夹即可。
+
+```
+.../Adobe After Effect CC XXXX/Scripts/ScriptUI Panels
+```
 
 ## 项目介绍
 
