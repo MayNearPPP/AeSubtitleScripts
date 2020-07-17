@@ -45,7 +45,7 @@
 
 1. **【歌ってみた】とても素敵な六月でした / Covered by 花鋏キョウ**
 
-> 效果预览：https://www.bilibili.com/video/BV1Mz411v7J7
+   > 效果预览：https://www.bilibili.com/video/BV1Mz411v7J7
 
 ## 相关仓库
 
