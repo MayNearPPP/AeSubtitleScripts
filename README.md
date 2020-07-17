@@ -1,6 +1,30 @@
-# AeSubtitleScripts
+# AeSubtitleRelatedScripts
 
-一些 Ae 字幕脚本,序号对应脚本在 finishedJSX 文件夹中。
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+简单的 Ae 效果字幕脚本，主要针对 Vtuber 搬运组的字幕效果制作工作。
+脚本灵感来源基本取自各 Vtuber 视频，其中大部分为[花鋏キョウ](https://zh.moegirl.org/zh-hant/%E8%8A%B1%E9%93%97%E9%95%9C)的视频。（\单推/\单推/\单推/）[Twitter](https://twitter.com/Kyo_Hanabasami)[Youtube](https://www.youtube.com/channel/UC4OeUf_KfYRrwksschtRYow)[Bilibili](https://space.bilibili.com/482515504)
+
+## 目录
+
+- [背景](#背景)
+- [安装](#安装)
+- [项目介绍](#项目介绍)
+- [相关仓库](#相关仓库)
+- [维护者](#维护者)
+- [使用许可](#使用许可)
+
+## 背景
+
+## 安装
+
+## 项目介绍
+
+## 相关仓库
+
+## 维护者
+
+## 使用许可
 
 ## 0. ImportText
 
@@ -20,35 +44,6 @@
 ### 【转行从这里开始】从 0 开始的 AE 脚本制作方法 from Maiiiiiid
 
 > URL:https://www.bilibili.com/video/BV1f7411k7A6
-
-# 标准 Readme
-
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
-标准 Readme 样式
-
-README 文件是人们通常最先看到的第一个东西。它应该告诉人们为什么要使用、如何安装、以及如何使用你的代码。README 文件标准化能够使得创建和维护 README 文件更加简单。毕竟，要写好一个文档不是那么容易的。
-
-本仓库包含以下内容：
-
-1. 一个标准的 README 文件应该是什么样子的[规范](spec.md)。
-2. 一个用于维护 README 文件的语法提示工具的链接 ([正在进行中](https://github.com/RichardLitt/standard-readme/issues/5))。
-3. 一个创建标准 README 的[生成器](https://github.com/RichardLitt/generator-standard-readme)。
-4. 一个指向该规范的[徽章](#徽章)。
-5. [标准 README 的实例](example-readmes/) - 比如你正在读的这个文件。
-   标准 Readme 是为了开源组件设计的。尽管它的[背景](#背景)是为了服务于 Node 和 npm 项目, 它同时也可以应用到其他编程语言和包管理器中去。
-
-## 内容列表
-
-- [背景](#背景)
-- [安装](#安装)
-- [使用说明](#使用说明) - [生成器](#生成器)
-- [徽章](#徽章)
-- [示例](#示例)
-- [相关仓库](#相关仓库)
-- [维护者](#维护者)
-- [如何贡献](#如何贡献)
-- [使用许可](#使用许可)
 
 ## 背景
 
