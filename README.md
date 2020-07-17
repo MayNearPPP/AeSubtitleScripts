@@ -1,8 +1,10 @@
 # AeSubtitleRelatedScripts
 
+[![build passing](https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/build-passing.png)]
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 简单的 Ae 效果字幕脚本，主要针对 Vtuber 搬运组的字幕效果制作工作。
+
 脚本灵感来源基本取自各 Vtuber 视频，其中大部分为[花鋏キョウ](https://zh.moegirl.org/zh-hant/%E8%8A%B1%E9%93%97%E9%95%9C)的视频。（\单推/\单推/\单推/）[Twitter](https://twitter.com/Kyo_Hanabasami)[Youtube](https://www.youtube.com/channel/UC4OeUf_KfYRrwksschtRYow)[Bilibili](https://space.bilibili.com/482515504)
 
 ## 目录
