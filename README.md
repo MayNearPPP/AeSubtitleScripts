@@ -45,7 +45,10 @@
 
 1. **【歌ってみた】とても素敵な六月でした / Covered by 花鋏キョウ**
 
-   > 效果预览：https://www.bilibili.com/video/BV1Mz411v7J7
+> 效果预览：https://www.bilibili.com/video/BV1Mz411v7J7
+
+暂时没有 UI 界面。（懒）  
+使用前需先将文字层拆分为单字图层。（后续大概会改进 大概）
 
 ## 相关仓库
 
@@ -59,7 +62,7 @@
 
 **【转行从这里开始】从 0 开始的 AE 脚本制作方法 from Maiiiiiid**
 
-    > URL:https://www.bilibili.com/video/BV1f7411k7A6
+> URL:https://www.bilibili.com/video/BV1f7411k7A6
 
 ## 使用许可
 
