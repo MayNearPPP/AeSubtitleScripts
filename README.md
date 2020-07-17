@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-简单的 Ae 效果字幕脚本，主要针对 Vtuber 搬运组的字幕效果制作工作。
+简单的 Ae 字幕效果脚本，主要针对 Vtuber 搬运组的字幕效果制作工作。
 
 ## 目录
 
