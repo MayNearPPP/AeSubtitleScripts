@@ -67,5 +67,3 @@
 ## 使用许可
 
 [MIT](LICENSE) © Richard Littauer
-
-tese
