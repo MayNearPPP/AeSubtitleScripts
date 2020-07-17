@@ -12,6 +12,7 @@
 - [项目介绍](#项目介绍)
 - [相关仓库](#相关仓库)
 - [维护者](#维护者)
+- [致谢](#致谢)
 - [使用许可](#使用许可)
 
 ## 背景
@@ -30,11 +31,21 @@
 
 ## 项目介绍
 
+0. **效率工具**
+
 ## 相关仓库
+
+- [TypeScript types for Adobe Products](https://github.com/pravdomil/Types-for-Adobe) — 配置开发环境所需文件
 
 ## 维护者
 
+[@MayNearPPP](https://github.com/MayNearPPP)。
+
+## 致谢
+
 ## 使用许可
+
+[MIT](LICENSE) © Richard Littauer
 
 ## 0. ImportText
 
