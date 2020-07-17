@@ -43,6 +43,9 @@
 
      目前仅支持 TXT 文件导入。
 
+   - SplitText
+     分割文字层，效果已经初步达成，不过仍有些许 Bug。（人家脚本能卖那么多钱是有原因的啊）
+
 1. **【歌ってみた】とても素敵な六月でした / Covered by 花鋏キョウ**
 
    > 效果预览：https://www.bilibili.com/video/BV1Mz411v7J7

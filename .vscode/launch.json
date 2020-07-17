@@ -7,8 +7,22 @@
     {
       "type": "extendscript-debug",
       "request": "launch",
-      "name": "aeSubtitleScripts",
+      "name": "programming",
       "program": "${workspaceFolder}/aeSubtitleScripts.jsx",
+      "stopOnEntry": false
+    },
+    {
+      "type": "extendscript-debug",
+      "request": "launch",
+      "name": "importText",
+      "program": "${workspaceFolder}/finishedJSX/importText.jsx",
+      "stopOnEntry": false
+    },
+    {
+      "type": "extendscript-debug",
+      "request": "launch",
+      "name": "subtitleProject1",
+      "program": "${workspaceFolder}/finishedJSX/subtitleProject1.jsx",
       "stopOnEntry": false
     }
   ]
