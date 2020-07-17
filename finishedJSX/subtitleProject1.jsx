@@ -1,7 +1,7 @@
-upSubtitle();
+subtitleScript01();
 
-function upSubtitle() {
-  /////////info/////////
+function subtitleScript01() {
+  //////////info////////////
   var scriptName = "textFillRect";
   var alertTitle = "Warning:";
 
