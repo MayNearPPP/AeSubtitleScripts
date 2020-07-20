@@ -7,19 +7,21 @@
 
 ## 目录
 
-- [背景](#背景)
-- [安装](#安装)
-- [项目介绍](#项目介绍)
-- [相关仓库](#相关仓库)
-- [维护者](#维护者)
-- [致谢](#致谢)
-- [使用许可](#使用许可)
+- [AeSubtitleRelatedScripts](#aesubtitlerelatedscripts)
+  - [目录](#目录)
+  - [背景](#背景)
+  - [安装](#安装)
+  - [项目介绍](#项目介绍)
+  - [相关仓库](#相关仓库)
+  - [维护者](#维护者)
+  - [致谢](#致谢)
+  - [使用许可](#使用许可)
 
 ## 背景
 
 生活所迫，被迫写代码 XD。  
 脚本灵感来源基本取自各 Vtuber 视频，其中大部分为[花鋏キョウ](https://zh.moegirl.org/zh-hant/%E8%8A%B1%E9%93%97%E9%95%9C)的视频。（\单推/\单推/\单推/）  
-[`Twitter`](https://twitter.com/Kyo_Hanabasami)[`Youtube`](https://www.youtube.com/channel/UC4OeUf_KfYRrwksschtRYow)[`Bilibili`](https://space.bilibili.com/482515504)
+[[`Twitter`](https://twitter.com/Kyo_Hanabasami)][[`Youtube`](https://www.youtube.com/channel/UC4OeUf_KfYRrwksschtRYow)][[`Bilibili`](https://space.bilibili.com/482515504)]
 
 ## 安装
 
@@ -36,10 +38,10 @@
    - ImportText  
       从 Ae 外部导入 TXT 文件，并根据 TXT 内容创建文本层。  
       可以选择`逐行导入`或`隔行导入`。  
-      | 类型 | 解释 |
-     |:------------:|:---------------|
-     | 逐行导入 | 根据 TXT 文件中的每一行创建文字层。 |
-     | 隔行导入 | 从 TXT 文件的第二行开始，隔行创建文字层，适用于一行原文一行翻译的情况。 |
+      |   类型   | 解释                                                                    |
+      | :------: | :---------------------------------------------------------------------- |
+      | 逐行导入 | 根据 TXT 文件中的每一行创建文字层。                                     |
+      | 隔行导入 | 从 TXT 文件的第二行开始，隔行创建文字层，适用于一行原文一行翻译的情况。 |
 
      目前仅支持 TXT 文件导入。
 
