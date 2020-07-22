@@ -134,7 +134,8 @@
       var item = app.project.renderQueue.items.add(newComp);
       var RQItem = item.outputModule(1);
       var file_name = File.decode(RQItem.file.name);
-      var new_path = "/Users";
+      var new_path =
+        "/Users/maynear_ppp/GithubProject/AeSubtitleScripts/output";
       var separator = "/";
       if ($.os.indexOf("Mac") == -1) {
         new_path =
