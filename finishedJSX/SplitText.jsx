@@ -53,9 +53,8 @@
   function split(textLayer) {
     var sourceText = textLayer.property("Source Text").value.text;
     var sourceTextArray = sourceText.split("");
+    var time = textLayer.inPoint;
     var nullLayer = curComp.layers.addNull();
-    var string = nullLayer.property("Layer Name").value;
-    throwError(string);
     for (var i = 0; i < sourceTextArray.length; i++) {
       var textSplitLayer = curComp.layers.addText(sourceTextArray[i]);
       textSplitLayer.setParentWithJump(nullLayer);

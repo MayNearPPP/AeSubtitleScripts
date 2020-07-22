@@ -24,6 +24,13 @@
       "name": "subtitleProject1",
       "program": "${workspaceFolder}/finishedJSX/subtitleProject1.jsx",
       "stopOnEntry": false
+    },
+    {
+      "type": "extendscript-debug",
+      "request": "launch",
+      "name": "splitText",
+      "program": "${workspaceFolder}/finishedJSX/splitText.jsx",
+      "stopOnEntry": false
     }
   ]
 }
