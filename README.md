@@ -21,7 +21,7 @@
 
 生活所迫，被迫写代码 XD。  
 脚本开发来源基本取自各 Vtuber 视频字幕，其中大部分为[花鋏キョウ](https://zh.moegirl.org/zh-hant/%E8%8A%B1%E9%93%97%E9%95%9C)的视频。（\单推/\单推/\单推/）  
-[[`Twitter`](https://twitter.com/Kyo_Hanabasami)][[`Youtube`](https://www.youtube.com/channel/UC4OeUf_KfYRrwksschtRYow)][[`Bilibili`](https://space.bilibili.com/482515504)]
+[[`Twitter`](https://twitter.com/Kyo_Hanabasami)] [[`Youtube`](https://www.youtube.com/channel/UC4OeUf_KfYRrwksschtRYow)] [[`Bilibili`](https://space.bilibili.com/482515504)]
 
 ## 安装
 
