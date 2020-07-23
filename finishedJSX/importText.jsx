@@ -153,23 +153,6 @@
     }
   }
 
-  // var textProp = myTextL ayer.property("Source Text");
-  // var textDocument = textProp.value;
-  // myString = "Happy holidays!";
-  // textDocument.resetCharStyle();
-  // textDocument.fontSize = 60;
-  // textDocument.fillColor = [1, 0, 0];
-  // textDocument.strokeColor = [0, 1, 0];
-  // textDocument.strokeWidth = 2;
-  // textDocument.font = "TimesNewRomanPSMT";
-  // textDocument.strokeOverFill = true;
-  // textDocument.applyStroke = true;
-  // textDocument.applyFill = true;
-  // textDocument.text = myString;
-  // textDocument.justification = ParagraphJustification.CENTER_JUSTIFY;
-  // textDocument.tracking = 50;
-  // textProp.setValue(textDocument);
-
   function readTXT() {
     var currentLine;
     var textArray = [];
