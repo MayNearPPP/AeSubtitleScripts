@@ -27,9 +27,7 @@
 
 已经完成的插件均在[finishedJSX](./finishedJSX)中。只需下载对应\*.jsx 文件，并将其放入下述文件夹即可。
 
-```
-.../Adobe After Effect CC XXXX/Scripts/ScriptUI Panels
-```
+`.../Adobe After Effect CC XXXX/Scripts/ScriptUI Panels`
 
 ## 项目介绍
 
