@@ -58,7 +58,7 @@
 
 ## 维护者
 
-[@MayNearPPP](https://github.com/MayNearPPP)[`Bilibili`](https://space.bilibili.com/1907810)
+[@MayNearPPP](http://www.maynearppp.com)
 
 ## 致谢
 
