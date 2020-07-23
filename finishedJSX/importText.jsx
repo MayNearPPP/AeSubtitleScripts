@@ -8,6 +8,13 @@
   var _option = 0;
   var _export = false;
 
+  // var textProp = app.project.activeItem
+  //   .layer(1)
+  //   .property("ADBE Text Properties")
+  //   .property("ADBE Text Document");
+  // var textDocument = textProp.value;
+  // throwError(textDocument.font);
+
   function throwError(msg) {
     alert(msg, alertTitle);
   }
@@ -127,10 +134,38 @@
     var fileData = readTXT();
     var project = app.project;
     for (var i = 0; i < fileData.length; i++) {
-      var newComp = project.items.addComp(i.toString(), 1920, 1080, 1, 1, 1.0);
-      newComp.layers.addText(fileData[i]);
+      var newComp = project.items.addComp(
+        (i + 1).toString() + "_" + fileData[i],
+        1920,
+        1080,
+        1,
+        1,
+        1.0
+      );
+      var textLayer = newComp.layers.addText(fileData[i]);
+      var textSourceText = textLayer.property("Source Text");
+      var textModify = textSourceText.value;
+
       ////////// Character Modify Start //////////
-      ////////// Character Modify End   //////////
+      // textModify.font = "Heiti SC-MediumMT";
+      textModify.font = "FZLTHJW--GB1-0";
+      textModify.justification = ParagraphJustification.CENTER_JUSTIFY;
+      textModify.fontSize = 61.98;
+      textModify.tracking = 75;
+      textModify.fillColor = [1, 1, 1];
+      //////////  Character Modify End  //////////
+      textSourceText.setValue(textModify);
+      ////////// Drop Shadow Start //////////
+      var dropShadow = textLayer.effect.addProperty("Drop Shadow");
+      dropShadow
+        .property("Shadow Color")
+        .setValue([27.0 / 255.0, 27.0 / 255.0, 27.0 / 255.0, 1]);
+      dropShadow.property("Opacity").setValue(0.8 * 255.0);
+      dropShadow.property("Direction").setValue(136);
+      dropShadow.property("Distance").setValue(3);
+      dropShadow.property("Softness").setValue(3);
+      //////////  Drop Shadow End  //////////
+      textLayer.property("Position").setValue([960, 1002]);
       var item = app.project.renderQueue.items.add(newComp);
       var RQItem = item.outputModule(1);
       var file_name = File.decode(RQItem.file.name);
