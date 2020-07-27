@@ -15,6 +15,12 @@
   // var textDocument = textProp.value;
   // throwError(textDocument.font);
 
+  // var a = app.project.activeItem
+  //   .layer(1)
+  //   .property("ADBE Blend Options Group")
+  // //   .property("Stroke").value;
+  // throwError(app.findMenuCommandId("Inner Shadow"));
+
   function throwError(msg) {
     alert(msg, alertTitle);
   }
@@ -136,8 +142,8 @@
     for (var i = 0; i < fileData.length; i++) {
       var newComp = project.items.addComp(
         (i + 1).toString() + "_" + fileData[i],
-        1920,
         1080,
+        1920,
         1,
         1,
         1.0
@@ -148,24 +154,40 @@
 
       ////////// Character Modify Start //////////
       // textModify.font = "Heiti SC-MediumMT";
-      textModify.font = "FZLTHJW--GB1-0";
+      textModify.font = "SourceHanSansSC-Heavy";
       textModify.justification = ParagraphJustification.CENTER_JUSTIFY;
-      textModify.fontSize = 61.98;
-      textModify.tracking = 75;
+      textModify.fontSize = 90;
+      textModify.tracking = 80;
       textModify.fillColor = [1, 1, 1];
-      //////////  Character Modify End  //////////
+      textModify.strokeColor = [0, 0, 0];
+      textModify.strokeWidth = 20;
+      textModify.fillOverStroke = true;
+      textModify.applyStroke = true;
+      textModify.applyFill = true;
       textSourceText.setValue(textModify);
+      //////////  Character Modify End  //////////
+
+      /////
+      var strokeFFX = File(
+        "/Applications/Adobe After Effects CC 2019/Scripts/ScriptUI Panels/(Shade_It_Resources)/LayerStyles/strokeFFX.ffx"
+      );
+      if (!strokeFFX.exists) {
+        throwError("Cant find file!");
+      }
+      textLayer.applyPreset(strokeFFX);
+      /////
+
       ////////// Drop Shadow Start //////////
-      var dropShadow = textLayer.effect.addProperty("Drop Shadow");
-      dropShadow
-        .property("Shadow Color")
-        .setValue([27.0 / 255.0, 27.0 / 255.0, 27.0 / 255.0, 1]);
-      dropShadow.property("Opacity").setValue(0.8 * 255.0);
-      dropShadow.property("Direction").setValue(136);
-      dropShadow.property("Distance").setValue(3);
-      dropShadow.property("Softness").setValue(3);
+      // var dropShadow = textLayer.effect.addProperty("Drop Shadow");
+      // dropShadow
+      //   .property("Shadow Color")
+      //   .setValue([27.0 / 255.0, 27.0 / 255.0, 27.0 / 255.0, 1]);
+      // dropShadow.property("Opacity").setValue(0.8 * 255.0);
+      // dropShadow.property("Direction").setValue(136);
+      // dropShadow.property("Distance").setValue(3);
+      // dropShadow.property("Softness").setValue(3);
       //////////  Drop Shadow End  //////////
-      textLayer.property("Position").setValue([960, 1002]);
+      textLayer.property("Position").setValue([540, 1200]);
       var item = app.project.renderQueue.items.add(newComp);
       var RQItem = item.outputModule(1);
       var file_name = File.decode(RQItem.file.name);
