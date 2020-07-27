@@ -83,6 +83,10 @@
       }
       main();
     };
+    var createRenderButton = buttonGroup.add("button", undefined, "Add Render");
+    createRenderButton.onClick = function create() {
+      main2();
+    };
 
     if (palette instanceof Window) {
       palette.layout.layout(true);
@@ -110,6 +114,38 @@
       exportTextToPNG();
     } else {
       createTextLayers(curComp);
+    }
+    app.endUndoGroup;
+  }
+
+  function main2() {
+    app.beginUndoGroup(scriptName);
+    var index = 1;
+    throwError(app.project.items[index]);
+    while (app.project.item(index)) {
+      var thisComp = app.project.item(index);
+      if (thisComp instanceof CompItem) {
+        var item = app.project.renderQueue.items.add(thisComp);
+        var RQItem = item.outputModule(1);
+        var file_name = File.decode(RQItem.file.name);
+        var new_path =
+          "/Users/maynear_ppp/GithubProject/AeSubtitleScripts/output";
+        var separator = "/";
+        if ($.os.indexOf("Mac") == -1) {
+          new_path =
+            "D:\\Programming\\AeSubtitleScripts\\AeSubtitleScripts\\output";
+          separator = "\\";
+        }
+        var new_data = {
+          "Output File Info": {
+            "Full Flat Path": new_path + separator + file_name,
+          },
+        };
+
+        RQItem.setSettings(new_data);
+        RQItem.applyTemplate("PNGSingle");
+      }
+      index++;
     }
     app.endUndoGroup;
   }
@@ -168,8 +204,11 @@
       //////////  Character Modify End  //////////
 
       /////
+      // var strokeFFX = File(
+      //   "/Applications/Adobe After Effects CC 2019/Scripts/ScriptUI Panels/(Shade_It_Resources)/LayerStyles/strokeFFX.ffx"
+      // );
       var strokeFFX = File(
-        "/Applications/Adobe After Effects CC 2019/Scripts/ScriptUI Panels/(Shade_It_Resources)/LayerStyles/strokeFFX.ffx"
+        "C:\\Users\\MayNearPPP\\Documents\\Adobe\\After Effects CC 2019\\User Presets\\strokeFFX.ffx"
       );
       if (!strokeFFX.exists) {
         throwError("Cant find file!");
