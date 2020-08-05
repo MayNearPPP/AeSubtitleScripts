@@ -128,8 +128,7 @@
         var item = app.project.renderQueue.items.add(thisComp);
         var RQItem = item.outputModule(1);
         var file_name = File.decode(RQItem.file.name);
-        var new_path =
-          "/Users/maynear_ppp/GithubProject/AeSubtitleScripts/output";
+        var new_path = "/Users/maynear_ppp/Work/Project_03/Resource/Text/02";
         var separator = "/";
         if ($.os.indexOf("Mac") == -1) {
           new_path =
@@ -204,12 +203,12 @@
       //////////  Character Modify End  //////////
 
       /////
-      // var strokeFFX = File(
-      //   "/Applications/Adobe After Effects CC 2019/Scripts/ScriptUI Panels/(Shade_It_Resources)/LayerStyles/strokeFFX.ffx"
-      // );
       var strokeFFX = File(
-        "C:\\Users\\MayNearPPP\\Documents\\Adobe\\After Effects CC 2019\\User Presets\\strokeFFX.ffx"
+        "/Applications/Adobe After Effects CC 2019/Scripts/ScriptUI Panels/(Shade_It_Resources)/LayerStyles/strokeFFX.ffx"
       );
+      // var strokeFFX = File(
+      //   "C:\\Users\\MayNearPPP\\Documents\\Adobe\\After Effects CC 2019\\User Presets\\strokeFFX.ffx"
+      // );
       if (!strokeFFX.exists) {
         throwError("Cant find file!");
       }
