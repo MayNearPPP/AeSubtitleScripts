@@ -1,25 +1,12 @@
 (function importText(thisObj) {
   //////////info////////////
-  var scriptName = "importText ver1.0";
-  var alertTitle = "Warning:";
+  var scriptName = "importText ver1.1";
+  var alertTitle = "Warning!";
 
   var file = new File();
   var _selected = false;
   var _option = 0;
   var _export = false;
-
-  // var textProp = app.project.activeItem
-  //   .layer(1)
-  //   .property("ADBE Text Properties")
-  //   .property("ADBE Text Document");
-  // var textDocument = textProp.value;
-  // throwError(textDocument.font);
-
-  // var a = app.project.activeItem
-  //   .layer(1)
-  //   .property("ADBE Blend Options Group")
-  // //   .property("Stroke").value;
-  // throwError(app.findMenuCommandId("Inner Shadow"));
 
   function throwError(msg) {
     alert(msg, alertTitle);
@@ -177,10 +164,10 @@
     for (var i = 0; i < fileData.length; i++) {
       var newComp = project.items.addComp(
         (i + 1).toString() + "_" + fileData[i],
-        1080,
-        1920,
+        2160,
+        3840,
         1,
-        1,
+        8,
         1.0
       );
       var textLayer = newComp.layers.addText(fileData[i]);
@@ -191,11 +178,11 @@
       // textModify.font = "Heiti SC-MediumMT";
       textModify.font = "SourceHanSansSC-Heavy";
       textModify.justification = ParagraphJustification.CENTER_JUSTIFY;
-      textModify.fontSize = 90;
+      textModify.fontSize = 180;
       textModify.tracking = 80;
       textModify.fillColor = [1, 1, 1];
       textModify.strokeColor = [0, 0, 0];
-      textModify.strokeWidth = 20;
+      textModify.strokeWidth = 40;
       textModify.fillOverStroke = true;
       textModify.applyStroke = true;
       textModify.applyFill = true;
@@ -203,12 +190,12 @@
       //////////  Character Modify End  //////////
 
       /////
-      var strokeFFX = File(
-        "/Applications/Adobe After Effects CC 2019/Scripts/ScriptUI Panels/(Shade_It_Resources)/LayerStyles/strokeFFX.ffx"
-      );
       // var strokeFFX = File(
-      //   "C:\\Users\\MayNearPPP\\Documents\\Adobe\\After Effects CC 2019\\User Presets\\strokeFFX.ffx"
+      //   "/Applications/Adobe After Effects CC 2019/Scripts/ScriptUI Panels/(Shade_It_Resources)/LayerStyles/strokeFFX.ffx"
       // );
+      var strokeFFX = File(
+        "C:\\Users\\Administrator\\Documents\\Adobe\\After Effects CC 2019\\User Presets\\strokeFFX.ffx"
+      );
       if (!strokeFFX.exists) {
         throwError("Cant find file!");
       }
@@ -225,7 +212,7 @@
       // dropShadow.property("Distance").setValue(3);
       // dropShadow.property("Softness").setValue(3);
       //////////  Drop Shadow End  //////////
-      textLayer.property("Position").setValue([540, 1200]);
+      textLayer.property("Position").setValue([1080, 2400]);
       var item = app.project.renderQueue.items.add(newComp);
       var RQItem = item.outputModule(1);
       var file_name = File.decode(RQItem.file.name);
