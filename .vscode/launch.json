@@ -31,6 +31,13 @@
       "name": "splitText",
       "program": "${workspaceFolder}/finishedJSX/splitText.jsx",
       "stopOnEntry": false
+    },
+    {
+      "type": "extendscript-debug",
+      "request": "launch",
+      "name": "import2.0",
+      "program": "${workspaceFolder}/importText v2.0.jsx",
+      "stopOnEntry": false
     }
   ]
 }
